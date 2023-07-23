@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -440,9 +445,10 @@ footer {
     margin: 0;
     padding: 0;
   }
+
   nav {
-    background-color: #100e1d;
     width: 80%;
+    max-width: 1200px;
     padding: 44px 0px;
     margin: 0 auto;
   }
